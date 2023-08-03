@@ -1,0 +1,24 @@
+body{
+background-image: url("hangman/bg.jpg");
+background-repeat: no-repeat;
+background-size: cover
+}
+form{
+  background-color: blue;
+    border-radius: 45px;
+    border: 45px;
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    margin: auto;
+    padding: 45px;
+    text-align: center;
+}
+button{
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;  
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 
+1. */
