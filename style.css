@@ -19,6 +19,20 @@ button{
     padding-right: 20px;  
     font-family: 'Poppins', sans-serif;
 }
-
+#shifr{
+font-size: 25px;
+}
+#image{
+  width: 50%;
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+  background: rgb(9,121,37);
+  background: linear-gradient(90deg, rgba(9,121,37,1) 9%, rgba(9,121,37,1) 17%, rgba(9,9,121,1) 28%, rgba(9,97,108,1) 38%, rgba(121,9,9,1) 48%, rgba(224,242,38,1) 65%, rgba(9,121,28,1) 80%, rgba(9,9,121,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(240, 255, 255, 0); 
+}
 /* 
 1. */

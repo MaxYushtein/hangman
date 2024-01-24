@@ -1,7 +1,7 @@
 let input = document.getElementById("input")
 let h1 = document.getElementById("h1")
-let words =["" ,"xiami", "subaru", "bmw","opel","mazda","datsun","bugatti","maserati","chevrolet","rolls-royce"]
-let secretWord = words[Math.floor(Math.random())*10]
+let words =["Andorra" ,"xiami", "subaru", "bmw","opel","mazda","datsun","bugatti","maserati","chevrolet","rolls-royce"]
+let secretWord = words[Math.floor(Math.random())]
 let shifr = document.getElementById("shifr")
 shifr.innerHTML = "_".repeat(secretWord.length)
 let ok = document.getElementById("ok")
@@ -29,12 +29,11 @@ ok.onclick = function (event) {
             }
 
         }
-if (shifr.innerHTML==secretWord) {
-    h1.innerHTML = "you win"
-}
+    
+
     }
     else {
-        console.log("no");
+        console.log("no");                      
         mistakes = mistakes + 1
         image.src="hangman/hangman"+mistakes+".png"
         console.log(mistakes);
